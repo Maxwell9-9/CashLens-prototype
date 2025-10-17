@@ -62,10 +62,16 @@
      background: #111;
      padding: 1rem;
     }
+    
     .nav-item:hover {
       background-color: darkred;
+      color: white;
       margin: auto;
+      border-radius: inherit;
     }
+    
+
+    
 
     .nav-item{
       margin: auto;
@@ -112,6 +118,7 @@
 
     .btn:hover {
       background-color: darkred;
+      color: white;
     }
 
     footer {
