@@ -30,33 +30,50 @@
     <!-- Summary Section -->
     <section class="summary">
       <div class="card">
-        <h2>Total Income</h2>
-        <p>$4,200</p>
+        <h2 class="h5 text-muted">Total Income</h2>
+        <p class="fs-4 fw-bold text-success mb-0">$4,200</p>
       </div>
       <div class="card">
-        <h2>Total Expenses</h2>
-        <p>$2,850</p>
+        <h2 class="h5 text-muted">Total Expenses</h2>
+        <p class="fs-4 fw-bold text-danger mb-0">$2,850</p>
       </div>
       <div class="card">
-        <h2>Savings</h2>
-        <p>$1,350</p>
+        <h2 class="h5 text-muted" >Savings</h2>
+        <p class="fs-4 fw-bold text-primary mb-0">$1,350</p>
       </div>
     </section>
 
+      <!-- placeholder Graph -->
+      <section class="budget-graph mb-5">
+        <div class="card border-0 shadow-sm">
+          <div class="card-body text-center">
+            <h3 class="h5 mb-3 text-muted">Remaining Budget for October</h3>
+            <div class="progress" style="height: 30px;">
+              <div class="progress-bar bg-success" style="width: 65%;">
+                65% Remaining
+              </div>
+            </div>
+          <small class="text-muted d-block mt-2">$1,350 left out of $4,200</small>
+        </div>
+        </div>
+      </section>
+
+
+
     <!-- Navigation / Actions -->
-    <section class="actions">
-      <h3>Manage Your Budget</h3>
-      <div class="btn-group">
-        <button class="btn">Add Expense</button>
-        <button class="btn">View Reports</button>
-        <button class="btn">Set Budget Goals</button>
-        <button class="btn">Manage Categories</button>
+    <section class="actions my-4">
+      <h3 class="mb-3">Manage Your Budget</h3>
+      <div class="btn-group flex-wrap gap-2">
+        <button class="btn btn-outline-primary">Add Expense</button>
+        <button class="btn btn-outline-secondary">View Reports</button>
+        <button class="btn btn-outline-success">Set Budget Goals</button>
+        <button class="btn btn-outline-warning">Manage Categories</button>
       </div>
     </section>
   </main>
 
-  <footer>
-    &copy; 2025 MyBudget. All rights reserved.
+   <footer class="text-center py-3 mt-auto text-muted">
+    <small>© 2025 CashLens. All rights reserved.</small>
   </footer>
 </body>
 </html>

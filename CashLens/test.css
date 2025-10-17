@@ -139,10 +139,22 @@ body {font-family: Verdana, sans-serif;}
     }
 
     .navigation{
-      display:flex;
-      margin: 0 auto;
-      width: fit-content;
+     display: flex;
+     gap: 1rem;
+     background: #111;
+     padding: 1rem;
     }
+    
+    .nav-item:hover {
+      background-color: darkred;
+      color: white;
+      margin: auto;
+      border-radius: inherit;
+    }
+    
+
+    
+
     .nav-item{
       margin: auto;
     }
@@ -188,6 +200,7 @@ body {font-family: Verdana, sans-serif;}
 
     .btn:hover {
       background-color: darkred;
+      color: white;
     }
 
     footer {
