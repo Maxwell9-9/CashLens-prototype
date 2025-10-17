@@ -57,10 +57,16 @@
     }
 
     .navigation{
-      display:flex;
-      margin: 0 auto;
-      width: fit-content;
+     display: flex;
+     gap: 1rem;
+     background: #111;
+     padding: 1rem;
     }
+    .nav-item:hover {
+      background-color: darkred;
+      margin: auto;
+    }
+
     .nav-item{
       margin: auto;
     }
